@@ -5,7 +5,20 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
+
 }
+
+.app {
+  display: grid;
+  grid-template-rows: 1fr auto; /* Main content takes up remaining space, footer stays at bottom */
+  min-height: 100vh;
+}
+
+.main {
+  padding: 20px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

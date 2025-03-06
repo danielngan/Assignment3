@@ -1,0 +1,9 @@
+{
+  "photos": [
+    { "id": 1, "url": "/HeroImages/F9_film_poster.jpg", "caption": "Photo1" },
+    { "id": 2, "url": "/HeroImages/Hi,_Mom_(film_poster).jpg", "caption": "Photo2" },
+    { "id": 3, "url": "/HeroImages/la_brea.jpeg", "caption": "Photo3" },
+    { "id": 4, "url": "/HeroImages/No_Time_to_Die_poster.jpg", "caption": "Photo4" },
+    { "id": 5, "url": "/HeroImages/Spider-Man_No_Way_Home_poster.jpg", "caption": "Photo5" }
+  ]
+}

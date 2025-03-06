@@ -1,0 +1,9 @@
+{
+  "photos": [
+    { "id": 1, "url": "/MovieImages/detectiveChinatown.jpg", "caption": "Photo1" },
+    { "id": 2, "url": "/MovieImage/download.jpeg", "caption": "Photo2" },
+    { "id": 3, "url": "/MovieImages/taxidriver.jpeg", "caption": "Photo3" },
+    { "id": 4, "url": "/MovieImages/topgun2.jpeg", "caption": "Photo4" },
+    { "id": 5, "url": "/MovieImages/Yamato.jpeg", "caption": "Photo5" }
+  ]
+}
