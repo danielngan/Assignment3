@@ -1,9 +1,26 @@
-{
-  "photos": [
-    { "id": 1, "url": "/HeroImages/F9_film_poster.jpg", "caption": "Photo1" },
-    { "id": 2, "url": "/HeroImages/Hi,_Mom_(film_poster).jpg", "caption": "Photo2" },
-    { "id": 3, "url": "/HeroImages/la_brea.jpeg", "caption": "Photo3" },
-    { "id": 4, "url": "/HeroImages/No_Time_to_Die_poster.jpg", "caption": "Photo4" },
-    { "id": 5, "url": "/HeroImages/Spider-Man_No_Way_Home_poster.jpg", "caption": "Photo5" }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "F9: The Fast Saga",
+    "subtitle": "Experience the high-speed action",
+    "image": "/HeroImages/F9_film_poster.jpg"
+  },
+  {
+    "id": 2,
+    "title": "La Brea",
+    "subtitle": "A thrilling sci-fi adventure",
+    "image": "/HeroImages/la_brea.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "No Time to Die",
+    "subtitle": "James Bond's final mission",
+    "image": "/HeroImages/No_Time_to_Die_poster.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Spider-Man: No Way Home",
+    "subtitle": "The multiverse unleashed",
+    "image": "/HeroImages/Spider-Man_No_Way_Home_poster.jpg"
+  }
+]

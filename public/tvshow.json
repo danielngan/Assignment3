@@ -1,9 +1,0 @@
-{
-  "photos": [
-    { "id": 1, "url": "/MovieImages/ahs10.jpg", "caption": "Photo1" },
-    { "id": 2, "url": "/MovieImages/labrea.jpeg", "caption": "Photo2" },
-    { "id": 3, "url": "/MovieImages/lightshop.jpeg", "caption": "Photo3" },
-    { "id": 4, "url": "/MovieImages/manifest.jpeg", "caption": "Photo4" },
-    { "id": 5, "url": "/MovieImages/thelongseason.jpeg", "caption": "Photo5" }
-  ]
-}

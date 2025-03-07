@@ -1,0 +1,69 @@
+{
+  "tvshows": [
+    {
+      "id": 1,
+      "title": "1899",
+      "featured": true,
+      "image": "TVImages/1899.jpg"
+    },
+    {
+      "id": 2,
+      "title": "4400",
+      "image": "TVImages/4400_(TV_series)_Title_Card.png"
+    },
+    {
+      "id": 3,
+      "title": "American Horror Story",
+      "featured": true,
+      "image": "TVImages/American_Horror_Story_(FX_television_series)_red_logo.svg.png"
+    },
+    {
+      "id": 4,
+      "title" : "CastleRock",
+      "featured": true,
+      "image": "TVImages/CastleRock.png"
+    },
+    {
+      "id": 5,
+      "title" : "Dark",
+      "image": "TVImages/DARK.jpeg"
+    },
+    {
+      "id": 6,
+      "title" : "download",
+      "image": "TVImages/download.jpeg"
+    },
+    {
+      "id": 7,
+      "title" : "images",
+      "featured": true,
+      "image": "TVImages/images.jpeg"
+    },
+    {
+      "id": 8,
+      "title" : "La Brea",
+      "image": "TVImages/labrea.jpg"
+    },
+    {
+      "id": 9,
+      "title" : "13 reasons why",
+      "image": "TVImages/Netflix's_13_Reasons_Why_title_screen.png"
+    },
+    {
+      "id": 10,
+      "title" : "The Americans",
+      "featured": true,
+      "image": "TVImages/The_americans_2013_title_logo.svg.png"
+    },
+    {
+      "id": 11,
+      "title" : "total_drama",
+      "image": "TVImages/total_drama.png"
+    },
+    {
+      "id": 12,
+      "title" : "travelers",
+      "image": "TVImages/travelers.jpeg"
+    }
+  ]
+}
