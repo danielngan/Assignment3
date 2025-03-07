@@ -1,0 +1,10 @@
+.footer {
+    position: fixed; /* Sticks the footer */
+    bottom: 0; /* Moves it to the bottom of the screen */
+    left: 0; /* Ensures it starts from the left */
+    width: 100%; /* Spans the full width of the page */
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
