@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 
@@ -14,16 +14,22 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="navbar-nav" />
                 <Navbar.Collapse id="navbar-nav">
                     <Nav className="me-auto">
-                        {/* Removed Home Link */}
                         <Nav.Link as={Link} to="/movies">Movies</Nav.Link>
                         <Nav.Link as={Link} to="/tv-shows">TV Shows</Nav.Link>
                     </Nav>
-                </Navbar.Collapse>
 
-                {/* Right-Side Icons */}
-                <div className="d-flex align-items-center">
-                    <FaSearch className="text-white cursor-pointer" />
-                </div>
+                    {/* Right Side - Search Icon, Login & Sign Up Buttons */}
+                    <div className="d-flex align-items-center ms-auto gap-3">
+                        <FaSearch className="text-white cursor-pointer" />
+                        <Link to="/login">
+                            <Button variant="outline-light" size="sm">Login</Button>
+                        </Link>
+
+                        <Link to="/signup">
+                            <Button variant="light" size="sm">Sign Up</Button>
+                        </Link>
+                    </div>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );
