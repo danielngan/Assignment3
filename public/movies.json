@@ -7,7 +7,7 @@
       "image": "MovieImages/Avatar_The_Way_of_Water_poster.jpg",
       "summary":"Set more than a decade after the first film, it follows Jake Sully, now living as a Na'vi on Pandora, and his family—Neytiri and their children—as they face new threats. When humans return to colonize Pandora, targeting its resources, Jake and his family flee to the Metkayina clan, a reef-dwelling Na'vi group, to seek refuge. They must adapt to an aquatic way of life while confronting both human invaders and internal family struggle",
       "purchase_price": 11.00,
-      "rent_price": 3.00
+      "rental_price": 3.00
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "image": "MovieImages/detectiveChinatown.jpg",
       "summary": "In Bangkok's Chinatown, a wealthy Chinese businesswoman is murdered. The case is complex and lacks clear clues, making it difficult for the local police to handle effectively. At this point, Qin Feng and Tang Ren, as detectives, are invited to assist in the investigation. As they delve into the case, they uncover multiple hidden secrets and mysteries. Throughout their journey to uncover the truth, they face numerous challenges and dangers.",
       "purchase_price": 11.00,
-      "rent_price": 3.00
+      "rental_price": 3.00
     },
     {
       "id": 3,
