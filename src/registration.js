@@ -1,13 +1,13 @@
-import './App.css';
-import './Components/theHeader.js';
-import './Components/slideshow';
-import './Components/MovieGallery';
-import './Components/TVGallery';
+// import './App.css';
+// import './Components/Header';
+// import './Components/slideshow';
+// import './Components/MovieGallery';
+// import './Components/TVGallery';
 
-import ImageSlideshow from "./Components/slideshow";
-import MovieGallery from "./Components/MovieGallery";
-import TVGallery from "./Components/TVGallery";
-import {BrowserRouter as Router, Routes, Route, Link, useNavigate} from "react-router-dom";
+// import Hero from "./Components/slideshow";
+// import MovieGallery from "./Components/MovieGallery";
+// import TVGallery from "./Components/TVGallery";
+// import {BrowserRouter as Router, Routes, Route, Link, useNavigate} from "react-router-dom";
 
 const registration = () => {
     return (
