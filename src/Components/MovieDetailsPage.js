@@ -25,6 +25,9 @@ const MovieDetailsPage = () => {
             <h2>{item.title}</h2>
             <img src={"../../" +item.image} alt={item.title} className="details-poster" />
             <p><strong>Type:</strong> {type === "movie" ? "Movie" : "TV Show"}</p>
+            <p>{item.summary}</p>
+            <p>{item.purchase_price}</p>
+            <p>{item.rent_price}</p>
         </div>
     );
 };

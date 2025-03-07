@@ -4,66 +4,103 @@
       "id": 1,
       "title": "1899",
       "featured": true,
-      "image": "TVImages/1899.jpg"
+      "image": "TVImages/1899.jpg",
+      "summary": "Set in the year 1899, the story follows a group of European immigrants traveling from London to New York on a steamship called the Kerberos. The passengers, who come from different backgrounds and speak different languages, are searching for a better life in America. However, their journey takes a dark turn when they come across another ship, the Prometheus, which had been missing for four months.\n\nAfter boarding the abandoned Prometheus, the crew and passengers encounter strange occurrences, including eerie visions, shifting realities, and cryptic symbols. As the mystery deepens, it becomes clear that their journey is not what it seems, and reality itself might be an illusion. The show explores psychological horror, time loops, and simulation theories.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 2,
       "title": "4400",
-      "image": "TVImages/4400_(TV_series)_Title_Card.png"
+      "image": "TVImages/4400_(TV_series)_Title_Card.png",
+      "summary": "Over the span of several decades, 4,400 people mysteriously vanish without a trace. One day, they all reappear at once in a ball of light, with no memory of what happened to them. They haven't aged, and soon, some begin to develop superhuman abilities (e.g., telekinesis, healing, precognition).\n\nThe U.S. government, particularly the National Threat Assessment Command (NTAC), starts investigating the 4400. The central mystery revolves around who took them, why they were returned, and what their new abilities mean for the future of humanity.\n\n",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 3,
       "title": "American Horror Story",
       "featured": true,
-      "image": "TVImages/American_Horror_Story_(FX_television_series)_red_logo.svg.png"
+      "image": "TVImages/American_Horror_Story_(FX_television_series)_red_logo.svg.png",
+      "summary": "The story follows the Harmon family—Ben (a psychiatrist), Vivien (his wife), and their teenage daughter Violet—who move from Boston to Los Angeles to escape past trauma. They buy an old mansion at a suspiciously low price, only to discover it’s haunted by the ghosts of its former residents, all of whom died in the house.\n\nAs the season unfolds, the family experiences paranormal events, disturbing visions, and psychological torment. Meanwhile, their creepy neighbors—especially Constance Langdon (played by Jessica Lange)—seem to know more about the house than they let on.\n\n",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 4,
       "title" : "CastleRock",
       "featured": true,
-      "image": "TVImages/CastleRock.png"
+      "image": "TVImages/CastleRock.png",
+      "summary": "The show is set in the fictional town of Castle Rock, Maine, a recurring location in Stephen King's novels (The Dead Zone, Cujo, The Dark Half, Needful Things, etc.). The series features original characters and stories but connects to King’s wider literary universe, with Easter eggs referencing his books.\n\nEach season tells a self-contained story with overlapping elements.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 5,
       "title" : "Dark",
-      "image": "TVImages/DARK.jpeg"
+      "image": "TVImages/DARK.jpeg",
+      "summary": "Set in the fictional town of Winden, Germany, the story begins with the mysterious disappearance of a boy named Erik, followed by another boy, Mikkel Nielsen, vanishing without a trace. As four families—Nielsen, Doppler, Tiedemann, and Kahnwald—search for answers, they uncover a hidden underground passage in a nuclear power plant that leads to different time periods (1953, 1986, and 2019).\n\nIt turns out that Winden is trapped in a time loop, and the disappearances are linked to a secret society called Sic Mundus, which has been manipulating events for centuries.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 6,
       "title" : "download",
-      "image": "TVImages/download.jpeg"
+      "image": "TVImages/download.jpeg",
+      "summary": "A commercial airliner, Oceanic Flight 815, crashes on a mysterious island in the Pacific Ocean. The survivors struggle to stay alive while discovering that the island is not normal—it has strange creatures, hidden bunkers, supernatural phenomena, and a mysterious group called ‘The Others’.\n\nAs they search for a way off the island, they realize they were brought there for a reason. Their past lives are deeply connected, and the island holds secrets that defy logic and time itself.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 7,
       "title" : "images",
       "featured": true,
-      "image": "TVImages/images.jpeg"
+      "image": "TVImages/images.jpeg",
+      "summary": "Detective Charlie Hudson (played by John Reardon) is a skilled Major Crimes detective with the St. John’s Police Department. He partners with Rex, a former K9 unit police dog who lost his original handler but remains an exceptional crime-fighting partner. Together, they investigate murders, kidnappings, and high-stakes cases, using Rex’s keen sense of smell, agility, and intelligence to uncover clues that humans might miss.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 8,
       "title" : "La Brea",
-      "image": "TVImages/labrea.jpg"
+      "image": "TVImages/labrea.jpg",
+      "summary": "In Los Angeles, a massive sinkhole suddenly opens at the La Brea Tar Pits, swallowing hundreds of people, buildings, and vehicles. The survivors wake up in a mysterious, primeval world, filled with prehistoric creatures and strange ruins.\n\nMeanwhile, those left in the modern world—including scientist Dr. Rebecca Aldridge—work to understand the event and how to bring their loved ones back. They soon realize that the sinkhole is a time portal leading to 10,000 BC.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 9,
       "title" : "13 reasons why",
-      "image": "TVImages/Netflix's_13_Reasons_Why_title_screen.png"
+      "image": "TVImages/Netflix's_13_Reasons_Why_title_screen.png",
+      "summary": "The show follows Clay Jensen, a high school student who receives a mysterious box of 13 cassette tapes recorded by Hannah Baker, a classmate who recently died by suicide.\n\nIn the tapes, Hannah reveals 13 reasons why she took her own life, each one focusing on a different person who hurt, betrayed, or ignored her struggles. As Clay listens, he uncovers dark secrets about their school, including bullying, sexual violence, and neglect.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 10,
       "title" : "The Americans",
       "featured": true,
-      "image": "TVImages/The_americans_2013_title_logo.svg.png"
+      "image": "TVImages/The_americans_2013_title_logo.svg.png",
+      "summary": "Set in the early 1980s, at the height of the Cold War, the series follows Elizabeth and Philip Jennings, a seemingly normal married couple living in suburban Washington, D.C. with their two children.\n\nBut in reality, they are deep-cover KGB spies from the Soviet Union, embedded in the U.S. for years under false identities. They carry out covert missions for the KGB, using fake identities, disguises, and deadly tactics to steal American intelligence—all while keeping their true identity a secret from their kids and neighbors.\n\nThe tension increases when FBI agent Stan Beeman, who works in counterintelligence, moves in next door. Stan has no idea that his friendly new neighbors are actually the very Soviet spies he is hunting.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     },
     {
       "id": 11,
       "title" : "total_drama",
-      "image": "TVImages/total_drama.png"
+      "image": "TVImages/total_drama.png",
+      "summary": "A group of teen contestants arrives at a remote location (like an island, film studio, or cruise ship).\nThey are divided into teams and must compete in physical, mental, and endurance-based challenges.\nAfter each challenge, the losing team votes off one of their members, just like in Survivor.\nAs the numbers dwindle, the show becomes every contestant for themselves until there’s a final winner who receives $100,000 (or more in later seasons).",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
+
     },
     {
       "id": 12,
       "title" : "travelers",
-      "image": "TVImages/travelers.jpeg"
+      "image": "TVImages/travelers.jpeg",
+      "summary": "Travelers is a Canadian sci-fi TV series that aired on Netflix (globally) and Showcase (Canada) from 2016 to 2018. It was created by Brad Wright, best known for co-creating Stargate SG-1.\n\nThe show blends time travel, espionage, and dystopian survival themes, making it a smart and intense sci-fi thriller.",
+      "purchase_price": 11.00,
+      "rental_price": 3.00
     }
   ]
 }

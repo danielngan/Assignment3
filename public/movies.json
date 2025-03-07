@@ -12,7 +12,10 @@
     {
       "id": 2,
       "title": "detective Chinatown",
-      "image": "MovieImages/detectiveChinatown.jpg"
+      "image": "MovieImages/detectiveChinatown.jpg",
+      "summary": "In Bangkok's Chinatown, a wealthy Chinese businesswoman is murdered. The case is complex and lacks clear clues, making it difficult for the local police to handle effectively. At this point, Qin Feng and Tang Ren, as detectives, are invited to assist in the investigation. As they delve into the case, they uncover multiple hidden secrets and mysteries. Throughout their journey to uncover the truth, they face numerous challenges and dangers.",
+      "purchase_price": 11.00,
+      "rent_price": 3.00
     },
     {
       "id": 3,
