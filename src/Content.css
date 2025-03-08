@@ -1,0 +1,7 @@
+.content-section {
+    display: flex;  /* Arrange items in a row */
+    flex-wrap: nowrap;  /* Prevent wrapping to a new line */
+    overflow-x: auto;  /* Enable horizontal scrolling if needed */
+    gap: 10px;  /* Add spacing between movies */
+    padding: 10px;
+}

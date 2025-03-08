@@ -7,12 +7,14 @@ import MovieDetailsPage from "./Components/MovieDetailsPage";
 import Footer from "./Components/Footer";
 import Login from "./Components/Login"
 import Registration from "./Components/Registration"
+import ContentSection from "./Components/ContentSection";
 import "./App.css";
 
 function App() {
     return (
         <Router>
             <Header />
+
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/movies" element={<MoviesPage />} />
@@ -21,6 +23,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Registration />} />
             </Routes>
+            <ContentSection />
             <Footer />
         </Router>
     );
