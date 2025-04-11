@@ -16,6 +16,7 @@ const Header = () => {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/movies">Movies</Nav.Link>
                         <Nav.Link as={Link} to="/tv-shows">TV Shows</Nav.Link>
+                        <Nav.Link as={Link} to="/search">Search</Nav.Link>
                     </Nav>
 
                     {/* Right Side - Search Icon, Login & Sign Up Buttons */}

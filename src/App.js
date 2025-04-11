@@ -9,6 +9,8 @@ import Login from "./Components/Login"
 import Registration from "./Components/Registration"
 import ContentSection from "./Components/ContentSection";
 import "./App.css";
+import SearchBar from "./Components/SearchBar";
+import Dashboard from './Components/Dashboard';
 
 function App() {
     return (
@@ -19,9 +21,11 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/movies" element={<MoviesPage />} />
                 <Route path="/tv-shows" element={<TVShowsPage />} />
-                <Route path="/details/:type/:id" element={<MovieDetailsPage />} />
+                <Route path="/details/:id" element={<MovieDetailsPage />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Registration />} />
+                <Route path="/search" element={<SearchBar />} />
+                <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
             <ContentSection />
             <Footer />

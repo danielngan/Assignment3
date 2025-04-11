@@ -8,11 +8,13 @@ const FeaturedTVShowsSection = () => {
     const [tvShows, setTvShows] = useState([]);
 
     useEffect(() => {
-        fetch("/tv-shows.json") // Load TV show data
+        fetch("/api/movies/getFeaturedTVShows", {
+            method: "GET",
+        }) // Load TV show data
             .then((res) => res.json())
             .then((data) => {
-                const featuredShows = data.tvshows.filter(show => show.featured); // Filter only featured TV shows
-                setTvShows(featuredShows);
+                //const featuredShows = data.tvshows.filter(show => show.featured); // Filter only featured TV shows
+                setTvShows(data);
             })
             .catch(err => console.error("Error loading TV shows:", err));
     }, []);
@@ -37,7 +39,7 @@ const FeaturedTVShowsSection = () => {
                 {tvShows.map((show) => (
                     <SwiperSlide key={show.id}>
                         <div className="tv-card">
-                            <img src={show.image} alt={show.title} className="tv-poster" />
+                            <img src={show.smallPosterPath} alt={show.title} className="tv-poster" />
                             <div className="tv-overlay">
                                 <p className="tv-title">{show.title}</p>
                             </div>

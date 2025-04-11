@@ -48,9 +48,12 @@ const TVShowsPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch("/tv-shows.json")
+        fetch("/api/movies/getTVShowsOnly", {
+            method: "GET",
+
+        })
             .then((res) => res.json())
-            .then((data) => setTvShows(data.tvshows))
+            .then((data) => setTvShows(data))
             .catch((err) => console.error("Error loading TV shows:", err));
     }, []);
 
@@ -59,13 +62,14 @@ const TVShowsPage = () => {
             <h2 className="page-title">TV Shows</h2>
 
             <div className="grid-container">
-                {tvShows.map((show) => (
+                {tvShows && tvShows.map((show) => (
                     <div
                         key={show.id}
                         className="grid-item"
-                        onClick={() => navigate(`/details/tv/${show.id}`)}
+                        onClick={() => navigate(`/details/${show.id}`)}
                     >
-                        <img src={show.image} alt={show.title} className="poster" />
+
+                        <img src={show.largePosterPath} alt={show.title} className="poster" />
                         <p className="title">{show.title}</p>
                     </div>
                 ))}

@@ -7,6 +7,7 @@ import ContentSection from "./ContentSection";
 const Home = () => {
     return (
         <div>
+
             <div className="hero-section">
                 <HeroSection />
             </div>

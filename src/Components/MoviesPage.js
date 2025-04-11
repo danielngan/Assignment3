@@ -55,9 +55,19 @@ const MoviesPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch("/movies.json")
+        const apiUrl =  "/api/movies/getMoviesOnly";
+
+        fetch(apiUrl, {
+            method: "GET",
+        })
             .then((res) => res.json())
-            .then((data) => setMovies(data.movies))
+            .then((data) => {
+                console.log("Movies data:", data);
+                for (const movieIx in data) {
+                    console.log("Movie:", data[movieIx]);
+                }
+                setMovies(data)
+            })
             .catch((err) => console.error("Error loading movies:", err));
     }, []);
 
@@ -66,13 +76,13 @@ const MoviesPage = () => {
             <h2 className="page-title">Movies</h2>
 
             <div className="grid-container">
-                {movies.map((movie) => (
+                {movies && movies.map((movie) => (
                     <div
                         key={movie.id}
                         className="grid-item"
-                        onClick={() => navigate(`/details/movie/${movie.id}`)}
+                        onClick={() => navigate(`/details/${movie.id}`)}
                     >
-                        <img src={movie.image} alt={movie.title} className="poster" />
+                        <img src={movie.largePosterPath} alt={movie.title} className="poster" />
                         <p className="title">{movie.title}</p>
                     </div>
                 ))}

@@ -9,11 +9,13 @@ const FeaturedMoviesSection = () => {
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        fetch("/movies.json") // Load movie data
+        fetch("/api/movies/getFeaturedMovies", {
+            method: "GET",
+        }) // Load movie data
             .then((res) => res.json())
             .then((data) => {
-                const featuredMovies = data.movies.filter(movie => movie.featured); // Filter only featured movies
-                setMovies(featuredMovies);
+                //const featuredMovies = data.movies.filter(movie => movie.featured); // Filter only featured movies
+                setMovies(data);
             })
             .catch(err => console.error("Error loading movies:", err));
     }, []);
@@ -38,9 +40,9 @@ const FeaturedMoviesSection = () => {
                 {movies.map((movie) => (
                     <SwiperSlide key={movie.id}>
                         <div className="movie-card">
-                            <img src={movie.image} alt={movie.title} className="movie-poster" />
+                            <img src={movie.smallPosterPath} alt={movie.title} className="movie-poster" />
                             <div className="movie-overlay">
-                                <p className="movie-title">{movie.title}</p>
+                                <p className="movie-title"></p>
                             </div>
                         </div>
                     </SwiperSlide>
